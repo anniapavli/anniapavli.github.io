@@ -1,0 +1,45 @@
+/*Hello, hope you enjoy this recipe!*/
+
+/*Reminders*/
+
+/* display helps organize the layout of the text, in line or bock display*/ 
+/*padding and margins help organize contant*/
+/*float is good for align left or right*/
+/*class can be used to name or identify a group*/
+/*navy blue code: #073763*/
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #073763;
+  color: white;
+  font-size: 30px;
+}
+
+img {
+  float: right;
+  margin-left: 100px;
+  margin-right:60px;
+  margin-top: 25px;
+  height:755px;
+  border: 4px solid;
+  border-color: #073763;
+}
+
+h2{
+  margin-left: 60px;
+  text-decoration: underline;
+  text-decoration-color: #073763;
+}
+
+ul{
+  font-size: 16px;
+  margin-left: 60px;
+  font-family: 'Times New Roman';
+}
+
+oL{
+  font-size: 16px;
+  margin-left: 60px;
+  font-family: 'Times New Roman';
+}
