@@ -1,18 +1,26 @@
-.body {
-  margin: 0;
-  padding: 0;
-}
+
 
 .center {
   position: absolute;
   padding: 0;
   margin: auto;
   width: 400px;
-  top: 25px;
+  top: 26px;
   bottom: 0;
   left: 0;
   right:0;
-  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 2px 0px 0 rgba(0, 0, 0, 0.19);
+}
+
+.shadow {
+  position: absolute;
+  padding: 0;
+  margin: auto;
+  width: 400px;
+  top: 80px;
+  bottom: 30px;
+  left: 0;
+  right:0;
+box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .topimage {
@@ -30,7 +38,4 @@ body {
   background-image: url('https://cdn.hellofresh.com/landing-pages/Pages/hf-recipe-collection.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;  
-  background-size: cover;
-}
-
 
